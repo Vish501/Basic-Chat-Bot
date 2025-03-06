@@ -1,0 +1,7 @@
+langchain
+openai
+google-genai
+huggingface_hub
+langchain-google-genai
+streamlit
+load_dotenv
