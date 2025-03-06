@@ -13,7 +13,6 @@ warnings.simplefilter(action="ignore", category=FutureWarning)
 warnings.filterwarnings(action="ignore", category=DeprecationWarning)
 
 load_dotenv()
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.environ.get("HF_ACCESS_TOKEN")
 os.environ["GOOGLE_API_KEY"] = os.environ.get("GENAI_API_KEY")
 
 # Function to load the Google AI model and get responses
