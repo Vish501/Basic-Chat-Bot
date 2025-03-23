@@ -42,13 +42,13 @@ This project implements a simple AI chatbot using the Gemini API, enabling users
 
 To use the Gemini API, you need to set up your GOOGLE_API_KEY:
 
-- Obtain your Google API Key from the Google Cloud Console.
-- Add the API key to your environment:
+1. Obtain your **Google API Key** from the **Google Cloud Console**.
+2. Add the API key to your environment:
      - Locally (Linux/macOS): ```export GOOGLE_API_KEY="your-api-key-here"```
      - Locally (Windows - Command Prompt): ```set GOOGLE_API_KEY="your-api-key-here"```
      - Locally (Windows - PowerShell): ```$env:GOOGLE_API_KEY="your-api-key-here"```
 
-- If you are using GitHub Codespaces, store the API key as a GitHub repository secret:
+3. If you are using GitHub Codespaces, store the API key as a GitHub repository secret:
      
      - Go to your GitHub repository
      - Navigate to **Settings > Secrets and variables > Actions**
@@ -57,18 +57,17 @@ To use the Gemini API, you need to set up your GOOGLE_API_KEY:
      - Click **Add secret**
 
 This will allow the chatbot to authenticate and communicate with the Gemini API securely.
- 
+
 ## Usage
 
-Run the chatbot:
+1. Run the chatbot:
 
    ```bash
     streamlit run improved_simple_chatbot.py
-  ```
+  
+2. Interact with the bot:
 
-Interact with the bot:
-
-    Once the script is running, type your messages to the bot in the chat box provided. The bot will then respond based on the input provided.
+     Once the script is running, type your messages to the bot in the chat box provided. The bot will then respond based on the input provided.
 
 ## Files
 
@@ -76,6 +75,6 @@ Interact with the bot:
 - simple_chatbot.py: Initial version of the chatbot script.
 - requirements.txt: List of Python packages required to run the chatbot.
 
-## Acknowledgments
+## Acknowledgment
 
 This project utilizes the Gemini API to power the chatbot's language understanding capabilities. For more information, visit the Hugging Face Space.
