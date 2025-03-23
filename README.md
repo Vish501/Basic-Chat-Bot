@@ -36,7 +36,28 @@ This project implements a simple AI chatbot using the Gemini API, enabling users
     conda activate venv/
    ```
      Then, install the required packages: ```pip install -r requirements.txt```
-    
+
+
+## Setting Up the Google API Key
+
+To use the Gemini API, you need to set up your GOOGLE_API_KEY:
+
+- Obtain your Google API Key from the Google Cloud Console.
+- Add the API key to your environment:
+     - Locally (Linux/macOS): ```export GOOGLE_API_KEY="your-api-key-here"```
+     - Locally (Windows - Command Prompt): ```set GOOGLE_API_KEY="your-api-key-here"```
+     - Locally (Windows - PowerShell): ```$env:GOOGLE_API_KEY="your-api-key-here"```
+
+- If you are using GitHub Codespaces, store the API key as a GitHub repository secret:
+     
+     - Go to your GitHub repository
+     - Navigate to **Settings > Secrets and variables > Actions**
+     - Click **New repository secret**
+     - Set the name as ```GOOGLE_API_KEY``` and paste your API key as the value
+     - Click **Add secret**
+
+This will allow the chatbot to authenticate and communicate with the Gemini API securely.
+ 
 ## Usage
 
 Run the chatbot:
